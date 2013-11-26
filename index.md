@@ -17,12 +17,11 @@ these datasets in a single package, which also contains a detailed
 history of which data was produced when, by running which code, and on
 which machine. It is a complete record of the state of a computational
 research project that can be shared among collaborators and in the end
-published like a journal article.
+published as supplementary material to a journal article.
 
-The following principles explain the various choices made
-in the development of ActivePapers:
+The development of ActivePapers was guided by the following principles:
 
-#### 1. Data is more important than software
+##### 1. Data is more important than software
 
 Computational scientists usually first choose the software for doing
 their work, and then let the software decide how to store the data
@@ -32,7 +31,7 @@ much sense in fifty years as it does today, but the software used to
 produce it will probably be obsolete by then. Data should be stored in
 well documented and software-independent formats.
 
-#### 2. Code is data
+##### 2. Code is data
 
 We tend to think of code as the "active" part of computation and
 consider data the "passive" one: computation works on input data and
@@ -40,13 +39,13 @@ generates output data. But code is really just yet another form of
 data: a set of instructions that define a computation. And since code
 is just data, why not store it along with the data it works on?
 
-#### 3. Workflows are code
+##### 3. Workflows are code
 
 A workflow is nothing but the outermost layer of the algorithm that
 defines a computational research project. It's code, and thus data,
 and should be stored with the other data of the project.
 
-#### 4. One project, one file
+##### 4. One project, one file
 
 The typical setup in computational science consists of a directory per
 project containing all the data, scattered over many files, some of
@@ -63,7 +62,7 @@ verified by the computer. This single file can be copied between
 machines, shared among collaborators, and in the end published
 for consultation and reuse by fellow scientists around the world.
 
-#### 5. Re-use is a form of citation
+##### 5. Re-use is a form of citation
 
 Scientists have always built on other scientists' work. In
 computational science, this means re-using other scientists' datasets
@@ -73,7 +72,7 @@ Another advantage of machine-readable references is the integration
 of data and code references into bibliometry, creating the missing
 incentive for scientists to actually publish data and code.
 
-#### 6. Security matters.
+##### 6. Security matters.
 
 Reproducible research invites scientists to download their peers'
 computational code and run it. But running downloaded code without a
@@ -85,7 +84,7 @@ provide a closed universe, isolated from other data on a user's
 computer and from the Internet, in which defective and malicious code
 can do no harm.
 
-#### 7. Research moves at a slower pace than computing
+##### 7. Research moves at a slower pace than computing
 
 In the natural sciences, researchers typically consult original
 journal publications that are up to about thirty years old, whereas
@@ -110,7 +109,7 @@ principles listed above.
 Both ActivePapers implementations use
 [HDF5](http://www.hdfgroup.org/HDF5/) as the underlying storage
 format. An ActivePaper is thus an HDF5 file. Datasets in an
-ActivePaper can be consulted using many generic HDF5 tools, in
+ActivePaper can be inspected using many generic HDF5 tools, in
 particular [HDFView](http://www.hdfgroup.org/hdf-java-html/hdfview/).
 HDF5 has the advantage of providing compact binary storage for large
 datasets and efficient access to them. This makes ActivePapers

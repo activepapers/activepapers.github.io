@@ -32,4 +32,14 @@ For a first impression of ActivePapers, see the [tutorial](tutorial.html).
 
 The development of the ActivePapers Python edition is
 [hosted on Bitbucket](https://bitbucket.org/khinsen/active_papers_py/wiki/Home).
- 
+
+### Compatibility and dependencies
+
+ActivePapers supports both Python 2.7 and the Python 3.x series
+starting with 3.2. Since Python 2 and Python 3 are not fully compatible
+languages, a given ActivePaper may work with only one of them.
+
+ActivePapers depends on NumPy (tested with 1.6 and 1.7) and h5py
+(at least 2.2, tested with 2.2). The current release also requires
+tempdir (tested with 0.6), but this is a non-essential dependency
+that may disappear in the future.
