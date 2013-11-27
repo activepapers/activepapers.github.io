@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: forkme
 title: ActivePapers Python edition
 ---
 
