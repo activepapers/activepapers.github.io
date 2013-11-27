@@ -7,7 +7,7 @@ title: ActivePapers
 
 ActivePapers is a research and development project whose aim is to
 make computational science more open and more reliable, by making
-comutational reproducible and publishable.
+computational reproducible and publishable.
 
 
 ### The ActivePapers design criteria
