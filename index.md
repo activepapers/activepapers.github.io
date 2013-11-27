@@ -114,3 +114,11 @@ particular [HDFView](http://www.hdfgroup.org/hdf-java-html/hdfview/).
 HDF5 has the advantage of providing compact binary storage for large
 datasets and efficient access to them. This makes ActivePapers
 suitable for working with Big Data.
+
+The best platform for publishing ActivePapers is currently
+[figshare](http://figshare.com/). You can consult the
+list of [ActivePapers available on figshare]
+(http://figshare.com/articles/search?q=tag%3A+ActivePapers).
+
+For keeping up to date with ActivePapers development,
+follow [@ActivePapers](https://twitter.com/ActivePapers) on Twitter.
