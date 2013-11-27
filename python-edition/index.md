@@ -35,7 +35,7 @@ However, the Python platform also imposes a few limitations:
 For a first impression of ActivePapers, see the [tutorial](tutorial.html).
 
 The development of the ActivePapers Python edition is
-[hosted on Bitbucket](https://bitbucket.org/khinsen/active_papers_py/wiki/Home).
+[hosted on Github](http://github.com/activepapers/activepapers-python).
 
 ### Compatibility and dependencies
 
