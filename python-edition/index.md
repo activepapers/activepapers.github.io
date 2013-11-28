@@ -33,6 +33,8 @@ However, the Python platform also imposes a few limitations:
     able to use an ActivePaper, and it reduces reproducibility.
 
 For a first impression of ActivePapers, see the [tutorial](tutorial.html).
+Following the tutorial requires a working ActivePapers installation,
+which you will get by following the [installation notes](installation.html).
 
 The development of the ActivePapers Python edition is
 [hosted on Github](http://github.com/activepapers/activepapers-python).

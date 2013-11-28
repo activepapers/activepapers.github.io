@@ -3,9 +3,9 @@ layout: default
 title: Installing ActivePapers
 ---
 
-# Installing ActivePapers
+## Installing ActivePapers
 
-## Anaconda
+### Anaconda
 
 The fastest and easiest way to install the ActivePapers framework on
 your computer is to start by installing the
@@ -20,7 +20,7 @@ pip install tempdir ActivePapers.Py
 In case you have multiple Python installations on your machine, make
 sure you use the command `pip` from the Anaconda installation.
 
-## Debian and friends
+### Debian and friends
 
 On Debian Linux and derivatives such as Ubuntu, you can in principle
 install all the prerequisites using
@@ -50,7 +50,7 @@ pip install h5py tempdir ActivePapers.Py
 ```
 
 
-## Other Python installations
+### Other Python installations
 
 If you prefer to work with a different Python installation, make sure
 you have the following packages installed on your computer:
