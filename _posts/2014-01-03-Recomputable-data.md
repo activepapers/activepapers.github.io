@@ -54,6 +54,8 @@ codelets. In the current state of ActivePapers, the only way to
 generate such a dummy dataset is to first generate a real dataset,
 then run all the calclets that use it as input, and in the end
 replace the real dataset by a dummy dataset using `aptool dummy ...`.
+The [tutorial](http://www.activepapers.org/python-edition/tutorial.html)
+also mentions dummy datasets and shows how to recompute the original data.
 
 There is plenty of room for future improvements of the user interface
 to dummy datasets. For example, the calclet that creates a dataset
