@@ -115,10 +115,11 @@ HDF5 has the advantage of providing compact binary storage for large
 datasets and efficient access to them. This makes ActivePapers
 suitable for working with Big Data.
 
-The best platform for publishing ActivePapers is currently
-[figshare](http://figshare.com/). You can consult the
-list of [ActivePapers available on figshare]
-(http://figshare.com/articles/search?q=tag%3A+ActivePapers).
+The best platforms for publishing ActivePapers are currently
+[figshare](http://figshare.com/) and [Zenodo](http://zenodo.org). You
+can consult the list of ActivePapers available [on figshare]
+(http://figshare.com/articles/search?q=tag%3A+ActivePapers) and
+[on Zenodo](https://zenodo.org/search?f=keyword&p="ActivePapers").
 
 For keeping up to date with ActivePapers development,
 follow [@ActivePapers](https://twitter.com/ActivePapers) on Twitter.
