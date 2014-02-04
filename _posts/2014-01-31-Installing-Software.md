@@ -62,6 +62,7 @@ downloads free software from small producers, and accepts to do the
 adaptation work himself. But both systems are based on the Tetris
 model and suffer from its fundamental messiness.
 
+
 ## The platform-content model
 
 The platform-content model is named after the principle of operation
@@ -123,6 +124,34 @@ developers to work around the platform's limitations in a
 system-specific way, in order to gain in performance or functionality.
 This is what has happened to the JVM platform and has given rise
 to the parody "Write once, debug everywhere".
+
+## Programming languages
+
+Programming languages whose calling conventions differ from the
+underlying operating systems (in particular, interpreted languages
+that manage libraries in source code form) tend to have their own
+library management systems that follow the same principles as
+system-wide software management. The Python language, for example, is
+a representative of the Tetris model.  Tools like
+[virtualenv](https://pypi.python.org/pypi/virtualenv) have been
+invented to work around some of the inconveniences of the Tetris
+approach. What virtualenv does is set up "clean" standardized Tetris
+landscapes that are independent of each other. Such a virtual
+environment can be seen as a platform (defined by a specific version
+of Python and its standard library), but it's not quite the
+platform-content model because there is no straightforward way to
+package and distribute content.
+
+Languages based on a "system image" approach (most famously Smalltalk,
+but many Lisps work the same way) come closest to the platform-content
+model: the sytem image is the content, the runtime system is the
+platform. However, system images are in practice not used for software
+distribution, they are seen as an implementation detail.
+
+The only languages I am aware of that adopt the platform-content model
+are languages designed for the JVM and its younger cousin, Microsoft's
+[CLR](http://en.wikipedia.org/wiki/Common_Language_Runtime), which
+is better known under its commercial name .NET.
 
 ## What's the link with ActivePapers?
 
