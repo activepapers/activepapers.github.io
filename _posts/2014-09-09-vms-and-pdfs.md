@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Virtual Machines and PDFs: future relics of the past
+title: Virtual Machines and PDF&#58; future relics of the past
 author: Konrad Hinsen
 comments: true
 ---
