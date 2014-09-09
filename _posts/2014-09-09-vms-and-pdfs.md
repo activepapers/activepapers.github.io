@@ -5,11 +5,14 @@ author: Konrad Hinsen
 comments: true
 ---
 
-A recent tweet by Greg Wilson hits the nail on the head:
+A recent
+[tweet by Greg Wilson](https://twitter.com/gvwilson/status/508402669825060864)
+hits the nail on the head:
 
-<blockquote class="twitter-tweet" lang="en"><p>VM images are just PDFs you can run. If we use &#39;em for reproducibility today, ppl will have to hack tools to mine their content tomorrow.</p>&mdash; Greg Wilson (@gvwilson) <a href="https://twitter.com/gvwilson/status/508402669825060864">September 6, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+ > VM images are just PDFs you can run. If we use 'em for
+ > reproducibility today, ppl will have to hack tools to mine their
+ > content tomorrow.
+ 
 In fact, both virtual machines and PDFs were designed for a very
 specific purpose, but that purpose is not scientific publishing. PDFs
 were designed for capturing the exact contents of printed paper pages
