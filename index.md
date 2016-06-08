@@ -121,8 +121,9 @@ suitable for working with Big Data.
 
 The best platforms for publishing ActivePapers are currently
 [figshare](http://figshare.com/) and [Zenodo](http://zenodo.org). You
-can consult the list of ActivePapers available [on figshare]
-(http://figshare.com/search?q=ActivePapers) and
+can consult the list of ActivePapers available
+[on figshare](http://figshare.com/search?q=ActivePapers)
+and
 [on Zenodo](https://zenodo.org/search?f=keyword&p="ActivePapers").
 
 For keeping up to date with ActivePapers development,
