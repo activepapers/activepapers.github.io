@@ -49,14 +49,14 @@ and read [our blog](http://www.activepapers.org/blog.html).
 
 ### Scientific publications related to the ActivePapers project
 
- - "A data and code model for reproducible research and executable papers",
+ - "A data and code model for reproducible research and executable papers",  
    [Procedia Computer Science 2011, 4:579](https://doi.org/10.1016%2Fj.procs.2011.04.061)
 
- - "ActivePapers: a platform for publishing and archiving computer-aided research",
+ - "ActivePapers: a platform for publishing and archiving computer-aided research",  
     [F1000Research 2015, 3:289](https://doi.org/10.12688/f1000research.5773.3)
 
  - "Verifiability in computer-aided research: the role of digital scientific
-   notations at the human-computer interface",
+   notations at the human-computer interface",  
    [PeerJ Computer Science 2018, 4:e158](https://doi.org/10.7717/peerj-cs.158)
 
 ### ActivePapers in practice
@@ -64,7 +64,7 @@ and read [our blog](http://www.activepapers.org/blog.html).
 The best platforms for publishing ActivePapers are currently
 [Zenodo](http://zenodo.org) and [figshare](http://figshare.com/). You
 can consult the list of ActivePapers available
-[on Zenodo](https://zenodo.org/search?f=keyword&p="ActivePapers")
+[on Zenodo](https://zenodo.org/search?f=keyword&p=ActivePapers)
 and
 [on figshare](http://figshare.com/search?q=ActivePapers).
 
@@ -142,7 +142,8 @@ computational science, this means re-using other scientists' datasets
 and software. This works smoothly only through precise
 machine-readable references, such as DOIs (Digital Object Identifiers)
 or, better yet, intrinsic identifiers based on the concepts of
-content-addressable storage. Such machine-readable references can also
+[content-addressable storage](https://en.wikipedia.org/wiki/Content-addressable_storage).
+Such machine-readable references can also
 be used to integrate data and code references into bibliometry,
 creating the missing incentive for scientists to actually publish data
 and code.
@@ -156,5 +157,5 @@ Published computational science must therefore remain usable
 for a few decades. Computing environments evolve at a much
 faster pace, which is why software requires maintenance
 to remain usable for more than a few years. Computational
-science therefore requires [stable computing platforms]
-(http://khinsen.wordpress.com/2013/08/14/platforms-for-reproducible-research/).
+science therefore requires
+[stable computing platforms](http://khinsen.wordpress.com/2013/08/14/platforms-for-reproducible-research/).
