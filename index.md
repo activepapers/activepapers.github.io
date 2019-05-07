@@ -70,20 +70,25 @@ and
 
 ### ActivePapers infrastructure software
 
-There are currently two implementations of the ActivePapers
-concept: the [Python edition](./python-edition/) and the
-[JVM edition](./jvm-edition). The Python edition is the more
-immediately useful one for most computational scientists, but
-the JVM edition is a more complete implementation of the
-design goals outlined in the [first paper on ActivePapers](https://doi.org/10.1016%2Fj.procs.2011.04.061).
+There are currently three implementations of the ActivePapers concept:
+the [Python edition](./python-edition/), the [JVM
+edition](./jvm-edition), and the [Pharo edition](./pharo-edition). The
+Python edition is the most immediately useful one for computational
+scientists, but the JVM edition is a more complete implementation of
+the design goals outlined in the [first paper on
+ActivePapers](https://doi.org/10.1016%2Fj.procs.2011.04.061). The
+Pharo edition is the latest member of the family and should be considered
+work in progress.
 
-Both ActivePapers implementations use
+The Python and JVM implementations of ActivePapers use
 [HDF5](http://www.hdfgroup.org/HDF5/) as the underlying storage
 format. An ActivePaper is thus an HDF5 file. Datasets in an
 ActivePaper can be inspected using many generic HDF5 tools, in
 particular [HDFView](http://www.hdfgroup.org/hdf-java-html/hdfview/).
 HDF5 has the advantage of providing compact binary storage for large
-datasets and efficient access to them.
+datasets and efficient access to them. In the Pharo edition,
+an ActivePaper is a Pharo class with a singleton object containing
+the data.
 
 ### Core ideas and concepts of ActivePapers
 
