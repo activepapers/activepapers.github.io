@@ -73,7 +73,32 @@ younger members, has a long history of valuing explorability and
 understandability (see [this blog
 post](https://blog.khinsen.net/posts/2018/12/19/exploring-pharo/) for
 more details). Then I quickly discovered the [Glamorous Toolkit](https://gtoolkit.com/), a new interactive environment building on Pharo and aiming for an even higher
-level of explorability through moldable development tools, the idea being that developers should be able to extend the environment with domain-specific inspection tools. The intellectual background of these ideas have been nicely summarized in a [blog post](https://osoco.es/thoughts/2019/05/designing-media-for-thought-with-moldable-development/) by Rafael Luque. Compared to the current and future environments of the Pharo universe, computational notebooks feel very limited and constraining.
+level of explorability through moldable development tools, the idea being that developers should be able to extend the environment with domain-specific inspection tools. The intellectual background of these ideas have been nicely summarized in a [blog post](https://osoco.es/thoughts/2019/05/designing-media-for-thought-with-moldable-development/) by Rafael Luque.
+
+Compared to the current and future environments of the Pharo universe,
+computational notebooks feel very limited and constraining. Which
+isn't really surprising considering their origins. Today's Jupyter and
+RMarkdown are minor variations on the notebook idea introduced in the
+early 1980s by [Mathematica](https://www.wolfram.com/mathematica/).
+Mathematica in turn, like most other computer algebra systems, built
+on the heritage of Lisp, which in the 1950s introduced many
+revolutionary features into computing, among which interactivity via
+the Read-Eval-Print Loop (REPL) that was a natural way to implement
+interaction within the constraints of the user interface hardware of
+the time: a line-oriented terminal. Smalltalk, on the other hand,
+started out in the 1970s with graphical displays and pointing devices
+right from the start, at the price of depending on hardware that at
+the time very few people had access to. As Marshall McLuhan taught us,
+first we shape our tools and then our tools shape us. The
+line-oriented terminals of the 1950s have imprinted a way of thinking
+on computer users that even today's computational notebooks have
+retained, in spite of superior approaches having been around for
+decades. And that superior technology is not merely Smalltalk, which
+has always remained a niche system. Non-linear GUIs is what we all use
+for working with images or sound files. Those tasks are almost
+impossible to do in a line-by-line way, so they didn't really happen
+before GUIs. For computations, GUIs probably came too late: linear
+thinking had already become a cultural norm.
 
 The Pharo edition of ActivePapers aims at molding the GToolkit
 environment into an environment for doing computing-aided research,
@@ -83,4 +108,7 @@ focuses on data and on models, with software being only a means to an
 end. However, it's such an important means that everything else is
 structured around it. Moreover, software development also deals with
 data (about software) and models (as specifications). In the end, the
-differences are gradual rather than fundamental.
+differences are gradual rather than fundamental. This journey has just
+begun, and I don't really know where it will lead. Stay tuned for
+updates!
+
