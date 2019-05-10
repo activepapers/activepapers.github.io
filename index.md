@@ -49,15 +49,25 @@ and read [our blog](http://www.activepapers.org/blog.html).
 
 ### Scientific publications related to the ActivePapers project
 
- - "A data and code model for reproducible research and executable papers",  
-   [Procedia Computer Science 2011, 4:579](https://doi.org/10.1016%2Fj.procs.2011.04.061)
+On reproducibility by construction and stable platforms
+([Python](./python-edition/) and [JVM](./jvm-edition) editions):
 
- - "ActivePapers: a platform for publishing and archiving computer-aided research",  
-    [F1000Research 2015, 3:289](https://doi.org/10.12688/f1000research.5773.3)
+  - "A data and code model for reproducible research and executable papers",  
+     [Procedia Computer Science 2011, 4:579](https://doi.org/10.1016%2Fj.procs.2011.04.061)
 
- - "Verifiability in computer-aided research: the role of digital scientific
-   notations at the human-computer interface",  
-   [PeerJ Computer Science 2018, 4:e158](https://doi.org/10.7717/peerj-cs.158)
+   - "ActivePapers: a platform for publishing and archiving computer-aided research",  
+      [F1000Research 2015, 3:289](https://doi.org/10.12688/f1000research.5773.3)
+
+On the human-computer interface in computational science
+([Pharo](./pharo-edition) edition
+ and the [Leibniz](https://github.com/khinsen/leibniz/) project):
+
+   - "Computational science: shifting the focus from tools to models",  
+      [F1000Research 2014, 3:101](https://doi.org/10.12688/f1000research.3978.2)
+
+   - "Verifiability in computer-aided research: the role of digital scientific
+     notations at the human-computer interface",  
+     [PeerJ Computer Science 2018, 4:e158](https://doi.org/10.7717/peerj-cs.158)
 
 ### ActivePapers in practice
 
@@ -164,3 +174,21 @@ faster pace, which is why software requires maintenance
 to remain usable for more than a few years. Computational
 science therefore requires
 [stable computing platforms](http://khinsen.wordpress.com/2013/08/14/platforms-for-reproducible-research/).
+
+##### The human-computer interface of computational science matters
+
+Marshall McLuhan told us that "First we shape our tools, and then our
+tools shape us."  This phenomenon is easy to observe in many aspects
+of life (cities structured around cars, social life impacted by social
+networks, etc.), including computational science. Scientists choose
+models and methods at least as much for ease of use (readily available
+implementations etc.) as for scientific validity. There are also more
+fundamental but less visible impacts of computing technology on the
+way we do scientific research. The complexity of modern software makes
+the models and methods it applies very opaque. As a consequence,
+scientists more and more often apply models and methods without
+knowing which assumptions they are based on. Worse, they often don't
+even know exactly which software they have run, leading to
+non-reproducible results. We must therefore pay more attention
+to the human-computer interface of our tools, making sure
+that they favor understandability and verifiability.
