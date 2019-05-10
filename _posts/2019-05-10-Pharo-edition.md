@@ -110,5 +110,5 @@ structured around it. Moreover, software development also deals with
 data (about software) and models (as specifications). In the end, the
 differences are gradual rather than fundamental. This journey has just
 begun, and I don't really know where it will lead. Stay tuned for
-updates!
+updates! In the meantime, you can watch [this demo video](https://peervideo.net/videos/watch/4022a2cf-2b22-4a1c-935e-bf80724d3970).
 
