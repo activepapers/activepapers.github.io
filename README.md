@@ -1,4 +1,4 @@
 activepapers.github.io
 ======================
 
-ActivePapers Web site at activepapers.org
+ActivePapers Web site at [activepapers.github.io](activepapers.github.io)
